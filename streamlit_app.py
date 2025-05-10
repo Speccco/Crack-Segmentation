@@ -3,6 +3,10 @@ from PIL import Image
 import torch
 from ultralytics import YOLO
 import numpy as np
+import asyncio
+
+# Ensure event loop is created
+asyncio.set_event_loop(asyncio.new_event_loop())
 
 # Set page config first, right after imports
 st.set_page_config(page_title="Crack Segmentation", layout="centered")
@@ -10,7 +14,7 @@ st.set_page_config(page_title="Crack Segmentation", layout="centered")
 # Load model
 @st.cache_resource
 def load_model():
-    return YOLO("best.pt")
+    return YOLO("src/best.pt")
 
 model = load_model()
 
