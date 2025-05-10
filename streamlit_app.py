@@ -14,7 +14,7 @@ st.set_page_config(page_title="Crack Segmentation", layout="centered")
 # Load model
 @st.cache_resource
 def load_model():
-    return YOLO("src/best.pt")
+    return YOLO("best.pt")
 
 model = load_model()
 
