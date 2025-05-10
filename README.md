@@ -8,9 +8,9 @@ Here’s the updated README with your Hugging Face link included:
 
 This project implements crack segmentation using the YOLOv8 (You Only Look Once) model for detecting cracks in images. The model is deployed with a Streamlit web app where users can upload images, and the model will segment visible cracks in the images. It uses a trained YOLOv8 model and provides a user-friendly interface for crack detection in wall images.
 
-You can try the deployed model on [Hugging Face - Crack Segmentation](https://huggingface.co/spaces/Speccco/Crack-Segmentation).
----
-You can try the deployed model on [Streamlit - Crack Segmentation](https://crack-segmentation.streamlit.app/).
+- [Hugging Face - Crack Segmentation](https://huggingface.co/spaces/Speccco/Crack-Segmentation)
+- [Streamlit - Crack Segmentation](https://crack-segmentation.streamlit.app/)
+
 ## Features
 
 * **YOLOv8 Model**: Uses the state-of-the-art YOLOv8n-segmentation model for detecting cracks in images.
